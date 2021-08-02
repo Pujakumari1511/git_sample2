@@ -72,6 +72,6 @@
         <OutArgument x:TypeArguments="x:String">[hairColor]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[firstName + lastName + &quot;'s hair color is &quot; + hairColor]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[firstName + &quot; &quot; + lastName + &quot;'s hair color is &quot; + hairColor]" />
   </Sequence>
 </Activity>
